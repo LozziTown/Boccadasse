@@ -1,0 +1,254 @@
+
+
+/* BIG TABLET to 1200px */
+
+@media only screen and (max-width: 930px) {
+    
+    body {
+        font-size: 85%;
+    }
+    
+    #logo2piccolo {
+        width: 45px;
+        left: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 810px) {
+    
+    body {
+        font-size: 80%;
+    }
+    #logo2piccolo {
+        width: 40px;
+        left: 16px;
+    }
+    #divul {
+        height: 64px;
+    }
+    nav {
+        padding-top: 386px;
+    }
+     h2:after {
+        margin-top: 18px;
+        margin-bottom: 50px;
+    } 
+    h2:before {
+        margin-top: 60px;
+        margin-bottom: 18px;
+    }
+    .div-storia p {
+        margin-bottom: 60px;
+    }
+    #div-risto {
+    height: 600px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #logo2piccolo {
+        width: 32px;
+        left: 12px;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .sticky #logo2piccolo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 638px) {
+    nav a {
+        font-size: 90%;
+    }
+    #divul {
+        height: 58px;
+    }
+    #logo2 {
+        width: 90px;
+    }
+    nav {
+        padding-top: 392px;
+    }
+    #div-ul-risto ul li,
+    #div-ul-risto h3 {
+        display: none;
+    }
+    #div-ul-risto {
+        float: left;
+        width: 100%;
+        text-align: center;
+        height: 100px;
+    }
+    #div-risto h2:after {
+        margin-bottom: 5px;
+    }
+    .map {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    
+    header {
+        height: 100vh;
+    }
+    
+    nav {
+        padding: 0;
+    }
+    #divul {
+        display: none;
+    }
+    #logo2 {
+        width: 150px;
+        margin-top: 420px;
+    }
+    .storia-nav {
+        display: none;
+    }
+    
+    #divimg {
+        height: 250px;
+        background: linear-gradient(180deg, #fff, transparent);
+        padding: 0;
+    }
+    #mobile-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 61px;
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 3px 12px #e6e6e6;
+        z-index: 2;
+    }
+    .sticky2 #logo2piccolo {
+        display: block;
+        width: 40px;
+        border-radius: 10px;
+        box-shadow: -1px 1px 10px rgba(0,0,0, 0.8);
+        position: fixed;
+        left: 15px;
+        top: 10px;
+    }
+    #mobile-nav i {
+        font-size: 2.2em;
+        color: #E2001A;
+        position: fixed;
+        margin: 0;
+        top: 10px;
+        right: 3%;
+/*        left: 500px;*/
+    }
+    footer {
+        height: 80px;
+    }
+    #footer-link ul li {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    footer i {
+        margin-top: 12px;
+        margin-right: 15px;
+    }
+    #footer-p {
+        margin-top: 58px;
+    }
+    .ion-social-instagram {
+        margin-right: 34px;
+    }
+    
+    #sto-mobile:before {
+        margin-top: 100px;
+    }
+    #p-sto-mobile {
+        margin-bottom: 10px;
+    }
+    
+    #foto-mobile:before {
+        margin-top: 100px;
+    }
+    #div-gallery img {
+        margin: 4px;
+        height: 120px;
+    }
+    .sinistra:hover {
+        transform: translateX(50%) scale(1.9);
+    }
+    .centro:hover {
+        transform: scale(1.9);
+    }
+    .destra:hover {
+        transform: translateX(-50%) scale(1.9);
+    }
+    
+    #s-risto h2:before {
+        margin-top: 100px;
+    }
+    #s-risto h2:after {
+        margin-bottom: 60px;
+    }
+    #s-risto iframe {
+        width: 88%;
+        height: 400px;
+    }
+    #s-risto {
+        height: 600px;
+    }
+    
+    #chi-mobile {
+        margin-top: 100px;
+    }
+    cite img {
+        height: 90px;
+        margin-right: 15px;
+    }
+    #mail {
+        margin-bottom: 60px;
+    }
+
+}
+
+
+
+/* SMALL PHONES from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+    
+   footer {
+       height: 75px;
+       font-size: 90%;
+    }
+    #footer-link ul li {
+       margin-left: 8px;
+       margin-top: 12px;
+    }
+    footer i {
+       margin-top: 9px;
+       margin-right: 12px;
+    }
+    #footer-p {
+       margin-top: 50px;
+    }
+    .ion-social-instagram {
+       margin-right: 24px;
+    }
+    #footer-link ul li:first-child {
+       margin-left: 18px;
+    }
+
+}
+
+
+
+
+
+
+
+

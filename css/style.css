@@ -36,6 +36,17 @@ nav {
     text-align: center;
 }
 
+#mobile-nav {
+    display: none;
+}
+#mobile-p {
+    width: 100%;
+    font-size: 160%;
+    margin: 0;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+
 #divimg {
     height: 200px;
     background: linear-gradient(0deg, #fff, transparent);
@@ -190,8 +201,12 @@ p {
 
 .gallery {
     position: fixed;
+    width: 258px;
+    height: 110px;
     top: 50%;
-    left: 40%;
+    left: 50%;
+    margin-top: -55px;
+    margin-left: -129px;
 }
 
 .gallery #a-gallery {
@@ -323,12 +338,11 @@ i {
     margin-right: 60px;
 }
 
-footer p {
-    float: left;
-    font-size: 85%;
-    vertical-align: bottom;
-    margin: 35px 0 0 180px;
+#footer-p {
     text-align: center;
+    font-size: 85%;
+    margin: 0 auto;
+    margin-top: 80px;
 }
 
 .ion-social-facebook:hover {
@@ -342,7 +356,6 @@ footer p {
 .ion-social-instagram:hover {
     color: #c32aa3;
 }
-
 
 
 /***** STORIA.HTML *****/
@@ -546,6 +559,49 @@ cite {
     font-size: 90%;
     margin-top: 25px;
 }
+
+
+
+/* MOBILE nav*/
+
+.js--main-nav {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 61px;
+    padding-top: 10px;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 3px 12px #e6e6e6;
+    z-index: 3;
+}
+
+.js--main-nav ul li {
+    list-style: none;
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.js--main-nav ul li a {
+    font-size: 110%;
+    text-decoration: none;
+    color: #555;
+} 
+.js--main-nav ul li a:hover {
+    color: #E2001A;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

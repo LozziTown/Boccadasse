@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/queries.css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic" rel="stylesheet">
         <title>Boccadasse</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,6 +17,21 @@
     </head>
 
     <body>
+        <div id="mobile-nav">
+            <img id="logo2piccolo" src="immagini/logo2.png" />
+            <a href="#" class="mobile-nav-icon a-icon"><i class="ion-navicon-round"></i></a>
+            <p id="mobile-p">Boccadasse</p>                
+        </div>
+        
+        <div class="js--main-nav"> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="storia.html">Storia</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="risto.html">Ristoranti e Bar</a></li>
+                <li><a href="chi.html">Chi siamo</a></li>
+            </ul>
+        </div>
 
 
         <div class="storia-nav">
@@ -31,7 +47,7 @@
 
         <section class="storia">
             <div class="div-storia">
-                <h2>Storia di Boccadasse</h2>
+                <h2 id="sto-mobile">Storia di Boccadasse</h2>
                 <p><span class="rosso">Boccadasse</span> è un piccolo borgo marinaro nel centro della città di Genova di 5 km quadrati che, con la sua particolarissima conformazione, regala un caratteristico colpo d’occhio a chiunque si trovi nelle vicinanze.
 
                     Secondo una leggenda, il borgo sarebbe stato fondato intorno all’anno mille da un gruppo di pescatori spagnoli che, dopo essere stati in balìa di una terribile tempesta, hanno trovato rifugio proprio in questa insenatura. Inoltre, pare che dal nome del loro capitano (De Odero o Donderos) deriverebbe il cognome Dodero, tuttora diffuso in città. Si narra anche che, dal nome del borgo, sia derivato quello del quartiere di Buenos Aires "la Boca", abitato da immigrati di origine genovese.
@@ -49,7 +65,7 @@
 
             <div class="div-curiosità-storia">
                 <h2>Origini del nome</h2>
-                <p>La leggenda più conosciuta narra che il nome deriverebbe dalla singolare forma della piccola baia che sembra disegnare proprio una bocca d’asino, che nel dialetto della zona si dice “bocca d’aze”.<br /><br />
+                <p id="p-sto-mobile">La leggenda più conosciuta narra che il nome deriverebbe dalla singolare forma della piccola baia che sembra disegnare proprio una bocca d’asino, che nel dialetto della zona si dice “bocca d’aze”.<br /><br />
 
                     Secondo un’altra ipotesi, invece, il nome farebbe riferimento al torrente "Asse" che un tempo scorreva dove si trova via Boccadasse e che, dopo aver alimentato lavatoi e fontane, sfociava in mare proprio nel centro del borgo.<br /><br />
 
@@ -99,9 +115,9 @@
                 <a href="https://www.twitter.com/" target="_blank"><i class="ion-social-twitter"></i></a>
                 <a href="https://www.facebook.com/" target="_blank"><i class="ion-social-facebook"></i></a>
             </div>
-            <div>
-                <p>Copyright &copy; 2018 by CVB. &nbsp; All rights reserved.</p>
-            </div>
+            
+            <p id="footer-p">Copyright &copy; 2018 by CVB. &nbsp; All rights reserved.</p>
+        
         </footer>
 
 
